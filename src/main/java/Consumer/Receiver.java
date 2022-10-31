@@ -23,7 +23,7 @@ public class Receiver {
 
   private static ConcurrentHashMap<String, Vector<LiftRide>> skierLiftRideMap = new ConcurrentHashMap<>();
   private final static String QUEUE_NAME = "skier_queue";
-  private static final int NUM_THREADS = 13;
+  private static final int NUM_THREADS = 20;
   private static final int ON_DEMAND = -1;
   private static final int WAIT_TIME_SECS = 1;
   private static final String SERVER = "localhost";
